@@ -128,6 +128,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AddressTypeController.cs" />
     <Compile Include="Controllers\GenderController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -242,6 +243,7 @@
     <Content Include="Views\Gender\Index.cshtml" />
     <Content Include="Views\Gender\Create.cshtml" />
     <Content Include="Views\Gender\Edit.cshtml" />
+    <Content Include="Views\AddressType\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
